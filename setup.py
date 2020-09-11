@@ -23,6 +23,7 @@ except ImportError:
     #
     # It is dropped from sys.modules as soon as all C extension modules
     # are built.
+    # Theja
     import _bootsubprocess
     sys.modules['subprocess'] = _bootsubprocess
     del _bootsubprocess
